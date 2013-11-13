@@ -2,6 +2,6 @@
 
 SYSTEM=`cat /etc/issue.net`
 sudo apt-get update
-sudo apt-get -y install mc aptitude iftop tcpdump
+sudo apt-get -y install mc aptitude iftop tcpdump xterm vim
 
 echo "System $SYSTEM is unified :-)"
