@@ -1,4 +1,4 @@
-Debian and Ubuntu basic apps
+Unify Debian and Ubuntu with basic apps
 
 To download this scipt and execute:
 
