@@ -15,14 +15,14 @@ if [ "$XDG_CURRENT_DESKTOP" = "" ]
 then
   echo
   echo "Let's unify server"
-  sleep 2
   echo
+  sleep 2
   sudo apt-get -y install $SERVER_APPS
 else
   echo
   echo "Let's unify Desktop"
-  sleep 2
   echo
+  sleep 2
   sudo apt-get -y install $SERVER_APPS
   sudo apt-get -y install $DESKTOP_APPS
 fi
