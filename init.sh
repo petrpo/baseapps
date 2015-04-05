@@ -29,5 +29,6 @@ fi
 
 HOST_VERSION=`cat /etc/issue.net`
 
+echo
 echo "$HOST_VERSION is unified according to universe standards :-)"
 echo
