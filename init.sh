@@ -9,6 +9,17 @@ if [[ $EUID -ne 0 ]]; then
   exit 1
 fi
 
+# would be nice to check debian version and add dropbox repository according to codename/version
+# lsb_release -c|awk '{print $2}' 
+# 
+#Add the following line to /etc/apt/sources.list. Replace natty with your build's name below.
+#
+#deb http://linux.dropbox.com/ubuntu natty main
+#
+#To import our GPG keys into your apt repository, perform the following command from your terminal shell:
+#
+#$ sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+
 sudo apt-get update
 
 if [ "$XDG_CURRENT_DESKTOP" = "" ]
