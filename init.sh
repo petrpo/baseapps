@@ -11,10 +11,20 @@ fi
 
 # would be nice to check debian version and add dropbox repository according to codename/version
 # lsb_release -c|awk '{print $2}' 
-# 
+#
+# UBUNTU
 #Add the following line to /etc/apt/sources.list. Replace natty with your build's name below.
 #
 #deb http://linux.dropbox.com/ubuntu natty main
+#
+#To import our GPG keys into your apt repository, perform the following command from your terminal shell:
+#
+#$ sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+
+# DEBIAN
+#Add the following line to /etc/apt/sources.list. Replace squeeze with your build's name.
+#
+#deb http://linux.dropbox.com/debian squeeze main
 #
 #To import our GPG keys into your apt repository, perform the following command from your terminal shell:
 #
