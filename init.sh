@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SERVER_APPS="mc aptitude iftop tcpdump vim openssh-server rsync htop screen traceroute xterm"
+SERVER_APPS="mc aptitude iftop tcpdump vim openssh-server rsync htop screen traceroute xterm git"
 DESKTOP_APPS="keepass2 vim-gtk"
 
 # run under root privileges
