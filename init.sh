@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SERVER_APPS="mc aptitude iftop tcpdump vim openssh-server rsync htop screen traceroute xterm git"
-DESKTOP_APPS="keepass2 vim-gtk"
+SERVER_APPS="mc aptitude iftop tcpdump vim openssh-server rsync htop screen traceroute git"
+DESKTOP_APPS="keepass2 vim-gtk xterm"
 
 # run under root privileges
 if [[ $EUID -ne 0 ]]; then
