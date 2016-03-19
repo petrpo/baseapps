@@ -35,9 +35,11 @@ sudo apt-get update
 if [ "$XDG_CURRENT_DESKTOP" = "" ]
 then
   echo
-  echo "Let's unify server"
+  echo "Let's unify server with these apps : "
   echo
-  sleep 2
+  echo "mc aptitude iftop tcpdump vim openssh-server rsync htop screen traceroute git"
+  echo
+  sleep 5
   sudo apt-get -y install $SERVER_APPS
 else
   echo
